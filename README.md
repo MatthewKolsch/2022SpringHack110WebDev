@@ -3,8 +3,10 @@
 For COMP110 bi-annual beginner-friendly hackathon, HACK110. This is a basic website that highlights fundamental HTML and CSS styling components to help students taking the Web Dev track.
 
 ### NOTE:
+
 This is soley a HTML and CSS **GUIDE** to help you UNDERSTAND what each component does. We recommend using this repo to play around with HTML and CSS but **NOT as the repo for your project**. Use a new repo or the repo you created during the Web Dev workshop that includes Flask. In addition, this repo doesn't include the Flask framework, which is what we want your projects to include! Go to https://hack.comp110.com/ to find the writeup for the Web Dev tutorial and see how to integrate Flask with HTML and CSS files.
 
+![](img/red-cross-home.png)
 
 ## How to view on VSCode
 
@@ -17,4 +19,5 @@ This is soley a HTML and CSS **GUIDE** to help you UNDERSTAND what each componen
 7. If you make changes and save files, you should see changes update on your browser.
 
 ### NOTE:
+
 In Flask and your projects, you will type the command `python -m app` in your terminal to view your page. Since this is simply an HTML file, we are using a Live Server extension to help us preview the page.
