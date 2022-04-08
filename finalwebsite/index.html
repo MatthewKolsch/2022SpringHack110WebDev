@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- This is the doctype tag. It's the first line in any HTML document, and it tells a browser how to interpret your file! -->
+<!-- MORE INFORMATION REGARDING HOW TO SEE THIS WEBSITE, CLASSES, CHROME'S "INSPECT" TOOL, AND ADDITIONAL RESOURCES AT THE BOTTOM OF THIS DOCUMENT. -->
+
+<html lang="en">
+<!-- This is the html tag, and it's used to indicate the beginning (and end) of an HTML element in an HTML document. -->
+
+<head>
+  <!-- The head tag contains information called metadata, which means data about the data! This includes info like the document title and styles. -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- The meta tag helps us define additional metadata about an HTML document. -->
+  <!-- This specefic code sets the width of the visible area of the web page to the width of the device on which it's shown. It also sets the initial zoom level to 1.0. -->
+
+  <link rel="stylesheet" href="styles.css">
+  <!-- The link tag is most often used to link to style sheets (styles.css) -->
+  <!-- "rel" (relationship) is required and used to describe the relationship between the current document and the linked document. -->
+  <!-- Because we're linking a css docuent (cascading style sheet), the relationship is stylesheet! -->
+  <!-- "href" is used to inform the computer what the link actually links to. -->
+
+
+  <title>UNC American Red Cross Club</title>
+  <!-- This tag creates the title of the website (seen on the tab) -->
+
+</head>
+
+<body>
+<!-- The body contains all the contents of an HTML doc. This includes headings, paragraphs, images, hyperlinks, etc.-->
+<!-- There can only be one <body> element in an HTML doc! -->
+
+  <header>
+  <!-- Header elements typically contain introductory information. This could include a logo or icon, navigational links, etc. -->
+
+    <h1>UNC American Red Cross Club</h1>
+    <!-- h1, h2, h3, h4, h5, and h6 tags are all heading tags. h1 is the largest heading while h6 is the smallest! -->
+
+  </header>
+
+  <section class="redcross-banner">
+  <!-- The section tag is used to define a section in a document. It's useful for grouping together related elements (for organization)! -->
+
+    <img src="img/banner3.jpeg" class="background" alt="red cross club welcome banner">
+    <!-- The img tag is used to embed an image in an HTML page. The "src" informs the computer where the image you'd like to embed is located. -->
+    <!-- In this example, "img/banner3.jpeg" is an jpeg image stored in a folder called "img". The img folder is next to the html files for the Red Cross Website (which you're reading now). -->
+
+    <div class="welcome">
+    <!-- Similar to the section tag, the div tag is used to group together a section of code. It's useful for formatting certain elements within a div tag with CSS!-->
+
+    </div>
+
+  </section>
+
+  <nav class="main-nav">
+  <!-- This nav tag is for providing a set of navigation links. These links can be used to either take you to a different area in the same html document, or a different html document altogether! -->
+
+    <ul>
+    <!-- ul stands for unordered list. ul tags are useful for displaying or grouping elements without them being numbered! -->
+
+      <li><a href="index.html" class="index">Join the Club</a></li>
+      <!-- The li tag is the list item tag. It's used to represent an item in a list! -->
+      <!-- The a tag defines a hyperlink – which is used to link one html page to another. -->
+
+      <li><a href="news.html" class="news"> Latest News</a></li>
+
+      <li><a href="opportunities.html" class="opportunities">Volunteer Opportunities</a></li>
+
+      <li><a href="contact.html" class="contact">Contact</a></li>
+
+    </ul>
+
+  </nav>
+
+  <main>
+  <!-- The main tag specifies the main content of a document, and the main element should be unique to the document! -->
+  <!-- This means that it should not contain content that's repeated across documents. -->
+
+    <article>
+    <!-- The article tag is useful for grouping textual information together. -->
+
+      <h2>Our Purpose</h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae possimus sapiente, ducimus asperiores error eum ipsam quasi repellendus iste earum laboriosam nesciunt officiis atque rerum quos incidunt aspernatur velit voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium labore perferendis minus incidunt doloribus, eligendi repudiandae earum dignissimos est neque deserunt consequatur. Repudiandae autem maxime magnam eveniet! Atque, suscipit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium labore perferendis minus incidunt doloribus, eligendi repudiandae earum dignissimos est neque deserunt consequatur. Repudiandae autem maxime magnam eveniet! Atque, suscipit amet.</p>
+      <!-- p stands for paragraph. Keep in mind that browsers automatically add 1 blank line before and after each paragraph element -->
+
+    </article>
+    
+    <ul class="images">
+
+      <li><img src="img/thumb-1.jpeg" alt="red cross club thumbnail 1"></li>
+
+      <li><img src="img/thumb-2.jpeg" alt="red cross club thumbnail 2"></li>
+
+    </ul>
+
+  </main>
+
+  <section class="index">
+
+    <h2>Join Today!</h2>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis dignissimos minus voluptatem.</p>
+
+    <form>
+    <!-- The form tag is used to create a form on a web page with interactice controls for user input! -->
+
+      <input type="text" class="fname" name="fname" placeholder="First Name"><br>
+      <!-- The input tag is where the user can input data (like a first name or email, for example). -->
+      <!-- The br tag is the line break element, and it's used to separate text! -->
+
+      <input type="text" class="lname" name="lname" placeholder="Last Name"><br>
+      <input type="email" class="email" name="email" placeholder="Email"><br>
+      <input type="submit" class="submit" value="Submit">
+
+    </form>
+
+  </section>
+
+  <footer>
+  <!-- The footer tag defines a footer for a document or section! Footers are the bottom-most section of a website. -->
+
+    <p class="copyright">Copyright 2022 UNC American Red Cross Club</p>
+
+  </footer>
+
+</body>
+
+<!-- VIEWING THIS WEBSITE IN YOUR BROWSER -->
+<!-- If you're using VS Code, open the "Explorer" side panel (where you see all of your exercises and lessons for Comp110) and right click on index.html. -->
+<!-- For Mac users, reveal the html file in Finder and double click it.  -->
+<!-- For Windows users, reveal the html file in File Explorer and double click it.  -->
+
+
+<!-- CLASS INFORMATION -->
+<!-- A class attribute in HTML (ex: class="copyright" on line 116) is often used to point to a class name in a style sheet. -->
+<!-- If, for example, you want to make certain paragraph elements appear a certain font/color, you could give each paragraph tag the same class and reference this class name in your style sheet!-->
+<!-- A class can also be used with JavaScript to access and manipulate elements with a certain class name. -->
+
+
+<!-- CHROME'S INSPECT TOOL -->
+<!-- Chrome's inspect tool is extremely useful for viewing html + css files and testing out changes in your code! -->
+<!-- We strongly suggest that you view this VERY SHORT (not even 4 minutes) YouTube video to learn how to use the tool effectively: -->
+<!-- https://www.youtube.com/watch?v=TUpsyv9A9vU -->
+
+
+<!-- ADDITIONAL TIDBIT OF INFO -->
+<!-- Please feel free to use this as a guide and a reference, but know that you'll have to do additional digging to complete your projects!  -->
+<!-- The HTML and CSS in these files is just a small portion of the code that is available to you. A very good resource for additional information is W3 schools!!! -->
+
+
+<!-- SOURCES -->
+<!-- Information regarding HTML and CSS info (such as tag definitions) is from W3 Schools -->
+<!-- Special shoutout to Net Ninja for help on making this template. -->
+
+</html>
